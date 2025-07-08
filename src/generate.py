@@ -8,7 +8,7 @@ def parse_args():
     parser = argparse.ArgumentParser(description="Generate image with fine-tuned LoRA adapter")
     parser.add_argument(
         "--model_dir", type=str,
-        default="lora-dreamy-landscape",
+        default="lora-dong-ho-style",
         help="Local folder chứa adapter_config.json và weights"
     )
     parser.add_argument(
